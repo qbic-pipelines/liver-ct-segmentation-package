@@ -4,6 +4,22 @@ Changelog
 
 This project adheres to `Semantic Versioning <https://semver.org/>`_.
 
+1.6.0 (2021-11-01)
+---------------------------------------------
+
+**Added**
+
+* Introduced command to compute uncertainty of prediction, via the monte-carlo dropout procedure.
+
+* Introduced command to compute input feature importance via the guided grad-cam algorithm, as implemented by the captum lib.
+
+**Fixed**
+
+**Dependencies**
+
+**Deprecated**
+
+
 1.5.0 (2021-09-01)
 ---------------------------------------------
 

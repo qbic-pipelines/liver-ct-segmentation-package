@@ -54,6 +54,8 @@ setup(
     entry_points={
         'console_scripts': [
             'liver-ct-seg-pred=liver_ct_segmentation_package.cli_pred:main',
+            'liver-ct-seg-uncert=liver_ct_segmentation_package.cli_uncert_pred:main',
+            'liver-ct-seg-feat-ggcam=liver_ct_segmentation_package.cli_feat_imp_ggcam:main',
             'liver-ct-seg-model-dl=liver_ct_segmentation_package.cli_model_dl:main',
         ],
     },
@@ -73,6 +75,6 @@ setup(
     setup_requires=setup_requirements,
     tests_require=test_requirements,
     url='https://github.com/luiskuhn/liver-ct-segmentation-package',
-    version='1.5.0',
+    version='1.6.0',
     zip_safe=False,
 )

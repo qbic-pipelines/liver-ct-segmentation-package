@@ -24,8 +24,7 @@ liver-ct-segmentation-package
         :alt: Dependabot Enabled
 
 
-Prediction package for U-Net models trained on the LiTS dataset.
-
+Prediction package for reproducible U-Net models trained on the LiTS dataset. These models are trained using the mlf-core framework (https://github.com/mlf-core/liver-ct-segmentation/).
 
 * Free software: MIT
 * Documentation: https://liverctsegmentationpackage.readthedocs.io.
@@ -36,6 +35,8 @@ Features
 
 * Model download CLI: liver-ct-seg-model-dl
 * Prediction CLI: liver-ct-seg-pred
+* Uncertainty of prediction CLI: liver-ct-seg-uncert
+* Input feature importance (Guided Grad-CAM) CLI: liver-ct-seg-feat-ggcam
 
 Credits
 -------
